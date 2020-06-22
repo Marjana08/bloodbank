@@ -1,0 +1,81 @@
+*{margin:0;padding:0}
+body{
+	background-color:#424949 ;
+}
+
+#wrapper{
+	width:1024px;
+	margin:0 auto;
+	/* margin-top:1px; */
+}
+.registerbox{
+    margin: 0 auto;
+    
+    width: 600;
+    height: 900px;
+	/* background:#63ADDE; */
+	background:D0D3D4;
+	 
+   
+}
+
+.registerbox img{
+    width: 100px;
+    /* height: 100px; */
+	height: auto;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: 200px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+p{
+   color:#6B710E;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 0px;
+   padding: 0px;
+   margin-left: 20px;
+}
+input{
+    margin-bottom:5px;
+    margin-top:15px;
+    width: 90%;
+    margin-left: 20px;
+    
+}
+.registerbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;  
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+.registerbox input[type="submit"]{
+    border: none;
+    outline:none;
+    border-radius:50px;
+    height: 30px;
+    color: #fff;
+    background-color: red;
+    font-size: 30px;
+  
+}
+.registerbox input[type="submit"]:hover{
+    cursor: pointer;
+
+}
+
+
